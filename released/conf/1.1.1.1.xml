@@ -1,0 +1,18 @@
+<Configuration>
+    <!-- Begin My Project -->
+    <Profile>
+        <VirtualAddress>1.1.1.1</VirtualAddress>
+        <Name>ServiceBrokerProfile</Name>
+    </Profile>
+    <Service type="server" enabled="false">
+        <BindName>ServiceBroker</BindName>
+        <BindAddress>localhost</BindAddress>
+        <BindPort>9090</BindPort>
+    </Service>
+    <Service type="client" enabled="true">
+        <RemoteName>Logger</RemoteName>
+        <RemoteAddress>localhost</RemoteAddress>
+        <RemotePort>4545</RemotePort>
+    </Service>
+    <!-- End My Project -->
+</Configuration>
