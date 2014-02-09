@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="90">
+<configurationDescriptor version="91">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
-    <logicalFolder name="f1"
-                   displayName="New CppUnit Test"
-                   projectFiles="true"
-                   kind="TEST">
-    </logicalFolder>
     <df root="." name="0">
       <df name="pugixml">
         <in>pugixml.cpp</in>
@@ -73,16 +68,10 @@
         </ccTool>
       </item>
       <item path="pugixml/pugixml.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
       </item>
       <item path="tests/newtestclass.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
       </item>
       <item path="tests/newtestrunner.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
       </item>
     </conf>
   </confs>

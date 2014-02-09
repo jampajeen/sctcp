@@ -127,21 +127,6 @@ void Server::onPollerWrite(int fd) {
 
 bool Server::run() {
     do {
-        // execute available task
-        /*for t in run_tasks : {
-                t.handler();
-        }*/
-        /*
-        update_time(&now);
-        timeout = INFINITE_TIMEOUT;
-        for t in wait_tasks :   {
-            if (t.time <= now) {
-                t.timeout_handler();
-            } else {
-                timeout = t.time - now;
-                break;
-            }
-        }*/
         
         /*
          *  Wait for new event with infinity timeout
