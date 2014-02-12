@@ -45,10 +45,6 @@
 #define TASK_EV_CONSTRUCT_RCTCP         0x0040
 #define TASK_EV_COMPLETED               0x0080
 
-/* For Equinox Project Only */
-#define TASK_EV_BEFORE_SEND     0x0100
-#define TASK_EV_AFTER_SENT      0x0200
-
 #define MAX_BUF_SIZE    (1024 * 64)
 #define MAX_CONNECTION  (1024 * 64)
 
