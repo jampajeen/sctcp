@@ -15,16 +15,8 @@
 
 #include "pugixml/pugixml.hpp"
 
-struct A {
-    int a;
-    int b;
-    int c;
-};
-
 int main(int argc, char** argv) {
-    A *a;
     LOG_I("Welcome to SCTCP development!");
-    LOG_D("%d,%d,%d",sizeof(A), sizeof(A*), sizeof(*a)); return 0;
     if(strcmp(argv[1], "server") == 0) {
         LOG_I("Starting server...");
         Server serv;
