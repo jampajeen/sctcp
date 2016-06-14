@@ -10,7 +10,6 @@
 #include "common.h"
 #include "Log.h"
 #include "Configuration.h"
-#include "Client.h"
 #include "Server.h"
 
 #include "pugixml/pugixml.hpp"
@@ -22,12 +21,6 @@ int main(int argc, char** argv) {
         Server serv;
         serv.start();
     }
-    if(strcmp(argv[1], "client") == 0) {
-        LOG_I("Starting client...");
-        Client clnt;
-        clnt.start();
-    }
-    
     return 0;
 }
 
