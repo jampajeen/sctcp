@@ -7,5 +7,5 @@ SCTCP is a part of my personal project that is built for learning distributed co
 
 
 ### Protocol design
-![Protocol Image](https://dl.dropboxusercontent.com/u/68317444/RxProtocol-Stream.png)
+![Protocol Image](https://raw.githubusercontent.com/jampajeen/sctcp/master/doc/RxProtocol-Stream.png)
 
